@@ -234,7 +234,7 @@ a {
 .about-grid .section-label {
   margin-bottom: 20px;
   color: var(--text);
-  font-size: 3.18rem;
+  font-size: 2.99rem;
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.04em;
@@ -248,8 +248,9 @@ a {
 }
 
 .favorites-title {
-  margin: 0 0 14px;
-  font-size: 1.15rem;
+    margin: 0 0 18px;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 .favorites-list,
