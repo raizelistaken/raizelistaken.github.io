@@ -225,6 +225,53 @@ a {
   color: #cbd5e1;
 }
 
+.about-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.about-grid .section-label {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+}
+
+.about-intro {
+  margin: 0 0 18px;
+  font-size: 1.08rem;
+}
+
+.favorites-title {
+  margin: 0 0 14px;
+  font-size: 1.15rem;
+}
+
+.favorites-list,
+.current-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorites-list {
+  columns: 2;
+  column-gap: 30px;
+}
+
+.favorites-list li {
+  margin-bottom: 7px;
+  break-inside: avoid;
+}
+
+.current-list li {
+  margin-bottom: 10px;
+}
+
+.current-list li:last-child {
+  margin-bottom: 0;
+}
+
 .text-link {
   display: inline-block;
   margin-top: 10px;
@@ -345,6 +392,10 @@ a:focus-visible {
   .about-grid {
     gap: 35px;
   }
+
+  .favorites-list {
+  columns: 1;
+}
 
   .current-work {
     padding: 32px 25px;
